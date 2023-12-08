@@ -1,0 +1,64 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --bg-blue-1: #11429e;
+    --bg-blue-2: #f6f9ff;
+    --bg-blue-3: #6583b9;
+    --margin-top: 100px;
+}
+
+.logo-text{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.sobre{
+    min-height: 60vh;
+}
+
+.my-title{
+    color: orange;
+    font-weight: 700;
+}
+
+.my-mt{
+    margin-top: var(--margin-top);
+}
+
+.nav-item a{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.icon{
+    font-size: 60px;
+    margin: 24px 0;
+    transition: .5s;
+    color: var(--bg-blue-1);
+}
+
+.card{
+    transition: .5s;
+}
+
+.card:hover{
+    background-color: rgb(233, 232, 232);
+}
+
+.card:hover .icon{
+    transform: scale(1.25);
+}
+
+
+textarea{
+    resize: none;
+    height: 130px;
+}
+
+@media (max-width:959px) {
+    #sobre{
+        text-align: center;
+    }
+}
